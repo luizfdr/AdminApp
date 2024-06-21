@@ -45,6 +45,7 @@ export class AdminComponent {
         immagini: [],
         zone: 'AST'
       };
+      
       this.adminService.addPercorsi(newPercorsi);
       this.adminService.selectItem(newPercorsi);
     }
